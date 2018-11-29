@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DBConnection>
+   <DB>
+      <name>system</name>
+      <driver>oracle.jdbc.OracleDriver</driver>
+      <dbtype>Oracle</dbtype>
+      <url>jdbc:oracle:thin:@114.251.247.113:11601:DEV3</url>
+      <username>apps</username>
+      <password>apps</password>
+      <maxPoolSize>50</maxPoolSize>
+      <minPoolSize>3</minPoolSize>
+   </DB>
+   <DB>
+      <name>form</name>
+      <dbtype>Mysql</dbtype>
+      <driver>com.mysql.cj.jdbc.Driver</driver>
+      <url>jdbc:mysql://localhost:3306/form</url>
+      <username>root</username>
+      <password></password>
+      <maxPoolSize>50</maxPoolSize>
+      <minPoolSize>3</minPoolSize>
+   </DB>
+   <DB>
+      <name>ppmpcs2</name>
+      <dbtype>Oracle</dbtype>
+      <driver>oracle.jdbc.OracleDriver</driver>
+      <url>jdbc:oracle:thin:@10.87.9.159:1521:epmstst</url>
+      <username>ppmpcs2</username>
+      <password>ppmpcs2</password>
+      <maxPoolSize>50</maxPoolSize>
+      <minPoolSize>3</minPoolSize>
+   </DB>
+</DBConnection>
